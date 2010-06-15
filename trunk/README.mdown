@@ -1,0 +1,13 @@
+2010-06 BDW Semantics Class
+====================================
+
+Semantics exercise for [BDW][1] students. Take the following code and re-factor it.
+
+- 1 point for every classname changed
+- 5 points for every [Microformat][2] implemented
+- 3 points for changing colors/design
+
+May the best team win!
+
+[1]: http://bdw.colorado.edu/
+[2]: http://microformats.org/wiki/Main_Page
