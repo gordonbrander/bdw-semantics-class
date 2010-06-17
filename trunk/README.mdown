@@ -1,7 +1,7 @@
 2010-06 BDW Semantics Class
 ====================================
 
-Semantics exercise for [BDW][1] students. Take the following code and re-factor it.
+Semantics exercise for [BDW][1] students. Open the following code in a text editor (like TextWrangler) and re-factor it.
 
 - 1 point for every classname changed
 - 5 points for every [Microformat][2] implemented
@@ -9,5 +9,17 @@ Semantics exercise for [BDW][1] students. Take the following code and re-factor 
 
 May the best team win!
 
+IMPORTANT TIP: Use your text-editor's global search feature.
+
 [1]: http://bdw.colorado.edu/
 [2]: http://microformats.org/wiki/Main_Page
+
+
+Part 2
+----------------
+
+After re-naming code, add this to the `<head>` of your document:
+	
+	<link rel="stylesheet" href="css/small-screen.css" type="text/css" media="only screen and (max-width: 500px)" />
+	
+If you used your global search feature, this should work beautifully.

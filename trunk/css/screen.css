@@ -99,7 +99,6 @@ h1.big-text {
 	*display: inline;
 	width: 30%; /* (270px at max width) */
 	margin: 20px 1%; /* 30px at max width) */
-	max-width: 500px;
 	vertical-align: top;
 }
 .text-thingy .medium-text {
