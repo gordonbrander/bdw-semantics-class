@@ -1,3 +1,8 @@
-.stacked-thingy-one-third {
+.side-by-side-boxes {
+	padding: 10px 0;
+}
+.stacked-round-grey-box {
 	width: 100%;
+	margin: 10px 0;
+	padding: 0;
 }

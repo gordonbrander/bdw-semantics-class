@@ -19,17 +19,10 @@ footer,header,hgroup,menu,nav,section,summary {
 /** @section Basics
  -------------------------------------------------- */
 body {
-	background: #444 url(../img/texture.png) center;
+	background: #444 url(../img/texture.png) top 0;
 	color: #eee;
 	font: 13px/1.5 Helvetica, Arial sans-serif;
-	margin: 0 auto;
-	max-width: 1200px;
-}
-
-h1 {
-	color: #111;
-	font-size: 24px;
-	text-shadow: 0 1px 1px rgba(255, 255, 255, .3);
+	margin: 0;
 }
 
 a {
@@ -43,15 +36,25 @@ ul {
 	list-style: none;
 }
 
+h1,
+p,
+ul {
+	margin-bottom: 10px;
+}
+
 /** @section Header
  -------------------------------------------------- */
 
-header {
+header.grey-ribbon-top {
 	background: url(../img/nav-shadow.png) repeat-x 0;
 	height: 50px;
 	line-height: 50px;
-	margin-bottom: 20px;
-	padding-bottom: 1px;
+	margin-bottom: 10px;
+	padding-bottom: 0 20px 1px;
+}
+header.grey-ribbon-top {
+	color: #111;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, .3);
 }
 
 header nav,
@@ -61,6 +64,24 @@ header li {
 	font-size: 12px;
 	display: inline;
 }
+header .things li {
+	margin: 0 10px;
+}
+
+/** @section Content
+ -------------------------------------------------- */
+
+h1.big-text {
+	color: #111;
+	font-size: 24px;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, .3);
+}
+
+.center {
+	margin: 0 auto;
+	max-width: 960px;
+	padding: 0 10px;
+}
 
 /** @section Gallery
  -------------------------------------------------- */
@@ -68,11 +89,12 @@ header li {
 .side-by-side-boxes {
 	border: 1px solid #333;
 	border-width: 1px 0;
-	padding: 20px;
+	margin: 10px 0 ;
+	padding: 10px;
 	text-align: center;
 }
 
-.stacked-thingy-one-third {
+.stacked-round-grey-box {
 	display: -moz-inline-box; /* FF2 */
 	display: inline-block; /* Standard. IE8+, Saf, FF3+ */
 	/**
@@ -87,7 +109,7 @@ header li {
 	text-align: left;
 	vertical-align: middle;
 }
-.stacked-thingy-one-third a {
+.stacked-round-grey-box a {
 	background: #333;
 	border-bottom: 1px solid #222;
 	-moz-border-radius: 5px; /* FF1+ */
@@ -97,10 +119,10 @@ header li {
 	display: block;
 	padding: 5px;
 }
-.stacked-thingy-one-third a:hover {
+.stacked-round-grey-box a:hover {
 	background: #222;
 }
-.stacked-thingy-one-third figcaption {
+.stacked-round-grey-box figcaption {
 	display: block;
 	margin-top: 5px;
 }
@@ -108,7 +130,7 @@ header li {
  * Fluid images
  * @see http://unstoppablerobotninja.com/entry/fluid-images
  */
-.stacked-thingy-one-third img {
+.stacked-round-grey-box img {
 	display: block;
 	max-width: 100%;
 }

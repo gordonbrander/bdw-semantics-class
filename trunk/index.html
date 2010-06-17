@@ -6,7 +6,7 @@
 
 	<title>My Gallery</title>
 	
-	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" /> 
+	<meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = no" /> 
 	<link rel="stylesheet" href="css/screen.css" type="text/css" media="screen" />
 	<link rel="stylesheet" href="css/small-screen.css" type="text/css" media="only screen and (max-width: 480px)" />
 	
@@ -17,31 +17,33 @@
 </head>
 
 <body>
-	<header>
-		<h1>My Portfolio</h1>
-		<nav>
-			<ul>
-				<li><a href="#">Recent</a></li>
-				<li><a href="#">Archive</a></li>
-			</ul>
-		</nav>
+	<header class="grey-ribbon-top">
+		<div class="center">
+			<h1>My Portfolio</h1>
+			<nav>
+				<ul class="things">
+					<li><a href="#">Recent</a></li>
+					<li><a href="#">Archive</a></li>
+				</ul>
+			</nav>
+		</div>
 	</header>
-	<section>
-		<h1>Gallery</h1>
+	<section class="center">
+		<h1 class="big-text">Gallery</h1>
 		<div class="side-by-side-boxes">
-			<figure class="stacked-thingy-one-third">
+			<figure class="stacked-round-grey-box">
 				<a href="http://www.flickr.com/photos/allchrome/4679976169">
 					<img src="img/photos/allchrome.4679976169.jpeg" alt="" />
 					<figcaption><b>Event Horizon</b> by allchrome</figcaption>
 				</a>
 			</figure>
-			<figure class="stacked-thingy-one-third">
+			<figure class="stacked-round-grey-box">
 				<a href="http://www.flickr.com/photos/admiriam/4682250653">
 					<img src="img/photos/admiriam.4682250653.jpeg" alt="" />
 					<figcaption><b>Ruralidades no fog</b> by Miriam Cardoso de Souza</figcaption>
 				</a>
 			</figure>
-			<figure class="stacked-thingy-one-third">
+			<figure class="stacked-round-grey-box">
 				<a href="http://www.flickr.com/photos/annais/4678577979">
 					<img src="img/photos/annais.4678577979.jpeg" alt="" />
 					<figcaption>By annais</figcaption>
@@ -49,10 +51,10 @@
 			</figure>
 		</div>
 	</section>
-	<section>
-		<h1>Recent Notes</h1>
+	<section class="center">
+		<h1 class="big-text">Recent Notes</h1>
 
-		<article>
+		<article class="box">
 			<h1>Super duper</h1>
 			<div>
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
