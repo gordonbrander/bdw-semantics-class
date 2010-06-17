@@ -1,3 +1,6 @@
+/**
+ * Make gallery full-width
+ */
 .side-by-side-boxes {
 	padding: 10px 0;
 }
@@ -5,4 +8,12 @@
 	width: 100%;
 	margin: 10px 0;
 	padding: 0;
+}
+
+/**
+ * Make Articles full-width
+ */
+.text-thingy {
+	width: 100%;
+	margin: 10px 0;
 }

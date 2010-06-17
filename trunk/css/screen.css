@@ -41,6 +41,10 @@ p,
 ul {
 	margin-bottom: 10px;
 }
+time {
+	color: #999;
+	font-size: 11px;
+}
 
 /** @section Header
  -------------------------------------------------- */
@@ -81,6 +85,26 @@ h1.big-text {
 	margin: 0 auto;
 	max-width: 960px;
 	padding: 0 10px;
+}
+
+.text-thingy {
+	display: -moz-inline-box; /* FF2 */
+	display: inline-block; /* Standard. IE8+, Saf, FF3+ */
+	/**
+	 * @bugfix inline-block fix
+	 * @see http://blog.mozilla.com/webdev/2009/02/20/cross-browser-inline-block/
+	 * @valid no
+	 */
+	zoom: 1;
+	*display: inline;
+	width: 30%; /* (270px at max width) */
+	margin: 20px 1%; /* 30px at max width) */
+	max-width: 500px;
+	vertical-align: top;
+}
+.text-thingy .medium-text {
+	font-size: 14px;
+	margin-bottom: 5px;
 }
 
 /** @section Gallery
@@ -133,4 +157,15 @@ h1.big-text {
 .stacked-round-grey-box img {
 	display: block;
 	max-width: 100%;
+}
+
+/** @section Footer
+ -------------------------------------------------- */
+
+.bottom-thing {
+	border-top: 1px solid #333;
+	font-size: 11px;
+	margin-top: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
 }
